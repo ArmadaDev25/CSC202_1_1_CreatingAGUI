@@ -30,13 +30,16 @@
         {
             button1 = new Button();
             label1 = new Label();
+            textBox1 = new TextBox();
+            label2 = new Label();
+            textBox2 = new TextBox();
             SuspendLayout();
             // 
             // button1
             // 
-            button1.Location = new Point(25, 205);
+            button1.Location = new Point(25, 128);
             button1.Name = "button1";
-            button1.Size = new Size(112, 34);
+            button1.Size = new Size(389, 36);
             button1.TabIndex = 0;
             button1.Text = "Roll Dice";
             button1.UseVisualStyleBackColor = true;
@@ -52,11 +55,38 @@
             label1.Text = "Number of Dice To Roll";
             label1.Click += label1_Click;
             // 
+            // textBox1
+            // 
+            textBox1.Location = new Point(264, 42);
+            textBox1.Name = "textBox1";
+            textBox1.Size = new Size(150, 31);
+            textBox1.TabIndex = 2;
+            // 
+            // label2
+            // 
+            label2.AutoSize = true;
+            label2.Location = new Point(25, 83);
+            label2.Name = "label2";
+            label2.Size = new Size(217, 25);
+            label2.TabIndex = 3;
+            label2.Text = "Number Of Sides Per Dice";
+            label2.Click += label2_Click;
+            // 
+            // textBox2
+            // 
+            textBox2.Location = new Point(264, 79);
+            textBox2.Name = "textBox2";
+            textBox2.Size = new Size(150, 31);
+            textBox2.TabIndex = 4;
+            // 
             // Form1
             // 
             AutoScaleDimensions = new SizeF(10F, 25F);
             AutoScaleMode = AutoScaleMode.Font;
             ClientSize = new Size(800, 450);
+            Controls.Add(textBox2);
+            Controls.Add(label2);
+            Controls.Add(textBox1);
             Controls.Add(label1);
             Controls.Add(button1);
             Name = "Form1";
@@ -69,5 +99,8 @@
 
         private Button button1;
         private Label label1;
+        private TextBox textBox1;
+        private Label label2;
+        private TextBox textBox2;
     }
 }
