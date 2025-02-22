@@ -1,0 +1,17 @@
+D:\Projects\CSC202_1_1_CreatingAGUI\1.1DiceRoller\1.1DiceRoller\bin\Debug\net8.0-windows\1.1DiceRoller.exe
+D:\Projects\CSC202_1_1_CreatingAGUI\1.1DiceRoller\1.1DiceRoller\bin\Debug\net8.0-windows\1.1DiceRoller.deps.json
+D:\Projects\CSC202_1_1_CreatingAGUI\1.1DiceRoller\1.1DiceRoller\bin\Debug\net8.0-windows\1.1DiceRoller.runtimeconfig.json
+D:\Projects\CSC202_1_1_CreatingAGUI\1.1DiceRoller\1.1DiceRoller\bin\Debug\net8.0-windows\1.1DiceRoller.dll
+D:\Projects\CSC202_1_1_CreatingAGUI\1.1DiceRoller\1.1DiceRoller\bin\Debug\net8.0-windows\1.1DiceRoller.pdb
+D:\Projects\CSC202_1_1_CreatingAGUI\1.1DiceRoller\1.1DiceRoller\obj\Debug\net8.0-windows\_1._1DiceRoller.Form1.resources
+D:\Projects\CSC202_1_1_CreatingAGUI\1.1DiceRoller\1.1DiceRoller\obj\Debug\net8.0-windows\1.1DiceRoller.csproj.GenerateResource.cache
+D:\Projects\CSC202_1_1_CreatingAGUI\1.1DiceRoller\1.1DiceRoller\obj\Debug\net8.0-windows\1.1DiceRoller.GeneratedMSBuildEditorConfig.editorconfig
+D:\Projects\CSC202_1_1_CreatingAGUI\1.1DiceRoller\1.1DiceRoller\obj\Debug\net8.0-windows\1.1DiceRoller.AssemblyInfoInputs.cache
+D:\Projects\CSC202_1_1_CreatingAGUI\1.1DiceRoller\1.1DiceRoller\obj\Debug\net8.0-windows\1.1DiceRoller.AssemblyInfo.cs
+D:\Projects\CSC202_1_1_CreatingAGUI\1.1DiceRoller\1.1DiceRoller\obj\Debug\net8.0-windows\1.1DiceRoller.csproj.CoreCompileInputs.cache
+D:\Projects\CSC202_1_1_CreatingAGUI\1.1DiceRoller\1.1DiceRoller\obj\Debug\net8.0-windows\1.1DiceRoller.sourcelink.json
+D:\Projects\CSC202_1_1_CreatingAGUI\1.1DiceRoller\1.1DiceRoller\obj\Debug\net8.0-windows\1.1DiceRoller.dll
+D:\Projects\CSC202_1_1_CreatingAGUI\1.1DiceRoller\1.1DiceRoller\obj\Debug\net8.0-windows\refint\1.1DiceRoller.dll
+D:\Projects\CSC202_1_1_CreatingAGUI\1.1DiceRoller\1.1DiceRoller\obj\Debug\net8.0-windows\1.1DiceRoller.pdb
+D:\Projects\CSC202_1_1_CreatingAGUI\1.1DiceRoller\1.1DiceRoller\obj\Debug\net8.0-windows\1.1DiceRoller.genruntimeconfig.cache
+D:\Projects\CSC202_1_1_CreatingAGUI\1.1DiceRoller\1.1DiceRoller\obj\Debug\net8.0-windows\ref\1.1DiceRoller.dll
