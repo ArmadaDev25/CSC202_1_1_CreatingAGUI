@@ -32,7 +32,7 @@
             label1 = new Label();
             numdiceInput = new TextBox();
             label2 = new Label();
-            textBox2 = new TextBox();
+            numSidesInput = new TextBox();
             ErrorLabel = new Label();
             SuspendLayout();
             // 
@@ -73,17 +73,17 @@
             label2.Text = "Number Of Sides Per Dice";
             label2.Click += label2_Click;
             // 
-            // textBox2
+            // numSidesInput
             // 
-            textBox2.Location = new Point(264, 79);
-            textBox2.Name = "textBox2";
-            textBox2.Size = new Size(150, 31);
-            textBox2.TabIndex = 4;
+            numSidesInput.Location = new Point(264, 79);
+            numSidesInput.Name = "numSidesInput";
+            numSidesInput.Size = new Size(150, 31);
+            numSidesInput.TabIndex = 4;
             // 
             // ErrorLabel
             // 
             ErrorLabel.AutoSize = true;
-            ErrorLabel.Location = new Point(503, 41);
+            ErrorLabel.Location = new Point(25, 186);
             ErrorLabel.Name = "ErrorLabel";
             ErrorLabel.Size = new Size(59, 25);
             ErrorLabel.TabIndex = 5;
@@ -95,7 +95,7 @@
             AutoScaleMode = AutoScaleMode.Font;
             ClientSize = new Size(800, 450);
             Controls.Add(ErrorLabel);
-            Controls.Add(textBox2);
+            Controls.Add(numSidesInput);
             Controls.Add(label2);
             Controls.Add(numdiceInput);
             Controls.Add(label1);
@@ -112,7 +112,7 @@
         private Label label1;
         private TextBox numdiceInput;
         private Label label2;
-        private TextBox textBox2;
+        private TextBox numSidesInput;
         private Label ErrorLabel;
     }
 }
