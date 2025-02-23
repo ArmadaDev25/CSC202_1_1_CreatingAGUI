@@ -28,22 +28,23 @@
         /// </summary>
         private void InitializeComponent()
         {
-            button1 = new Button();
+            rollDicebtn = new Button();
             label1 = new Label();
-            textBox1 = new TextBox();
+            numdiceInput = new TextBox();
             label2 = new Label();
             textBox2 = new TextBox();
+            ErrorLabel = new Label();
             SuspendLayout();
             // 
-            // button1
+            // rollDicebtn
             // 
-            button1.Location = new Point(25, 128);
-            button1.Name = "button1";
-            button1.Size = new Size(389, 36);
-            button1.TabIndex = 0;
-            button1.Text = "Roll Dice";
-            button1.UseVisualStyleBackColor = true;
-            button1.Click += button1_Click;
+            rollDicebtn.Location = new Point(25, 128);
+            rollDicebtn.Name = "rollDicebtn";
+            rollDicebtn.Size = new Size(389, 36);
+            rollDicebtn.TabIndex = 0;
+            rollDicebtn.Text = "Roll Dice";
+            rollDicebtn.UseVisualStyleBackColor = true;
+            rollDicebtn.Click += button1_Click;
             // 
             // label1
             // 
@@ -55,12 +56,12 @@
             label1.Text = "Number of Dice To Roll";
             label1.Click += label1_Click;
             // 
-            // textBox1
+            // numdiceInput
             // 
-            textBox1.Location = new Point(264, 42);
-            textBox1.Name = "textBox1";
-            textBox1.Size = new Size(150, 31);
-            textBox1.TabIndex = 2;
+            numdiceInput.Location = new Point(264, 42);
+            numdiceInput.Name = "numdiceInput";
+            numdiceInput.Size = new Size(150, 31);
+            numdiceInput.TabIndex = 2;
             // 
             // label2
             // 
@@ -79,16 +80,26 @@
             textBox2.Size = new Size(150, 31);
             textBox2.TabIndex = 4;
             // 
+            // ErrorLabel
+            // 
+            ErrorLabel.AutoSize = true;
+            ErrorLabel.Location = new Point(503, 41);
+            ErrorLabel.Name = "ErrorLabel";
+            ErrorLabel.Size = new Size(59, 25);
+            ErrorLabel.TabIndex = 5;
+            ErrorLabel.Text = "label3";
+            // 
             // Form1
             // 
             AutoScaleDimensions = new SizeF(10F, 25F);
             AutoScaleMode = AutoScaleMode.Font;
             ClientSize = new Size(800, 450);
+            Controls.Add(ErrorLabel);
             Controls.Add(textBox2);
             Controls.Add(label2);
-            Controls.Add(textBox1);
+            Controls.Add(numdiceInput);
             Controls.Add(label1);
-            Controls.Add(button1);
+            Controls.Add(rollDicebtn);
             Name = "Form1";
             Text = "Dice Roller";
             ResumeLayout(false);
@@ -97,10 +108,11 @@
 
         #endregion
 
-        private Button button1;
+        private Button rollDicebtn;
         private Label label1;
-        private TextBox textBox1;
+        private TextBox numdiceInput;
         private Label label2;
         private TextBox textBox2;
+        private Label ErrorLabel;
     }
 }
