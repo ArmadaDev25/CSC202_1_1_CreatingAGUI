@@ -26,11 +26,11 @@ namespace _1._1DiceRoller
 
                 }
                 else {
-
+                    // Takes the number of Sides entered by the user anc converts it to an integer
                     numOfSidesInt = Convert.ToInt32(numOfSides);
 
                     Random ran = new Random();
-                    int numOutput = ran.Next(0,6);
+                    int numOutput = ran.Next(0,numOfSidesInt);
                     string snumOutput = numOutput.ToString();
                     ErrorLabel.Text = snumOutput; 
 
