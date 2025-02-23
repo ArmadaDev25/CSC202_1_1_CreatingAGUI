@@ -32,7 +32,7 @@
               "RelativeDocumentMoniker": "1.1DiceRoller\\Form1.cs",
               "ToolTip": "D:\\Projects\\CSC202_1_1_CreatingAGUI\\1.1DiceRoller\\1.1DiceRoller\\Form1.cs",
               "RelativeToolTip": "1.1DiceRoller\\Form1.cs",
-              "ViewState": "AgIAAA8AAAAAAAAAAAAAACYAAAANAAAAAAAAAA==",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA8AAABYAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2025-02-23T20:19:22.528Z",
               "IsPinned": true,
@@ -48,7 +48,8 @@
               "RelativeToolTip": "1.1DiceRoller\\Form1.Designer.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAQAAAAVAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-02-23T21:18:10.482Z"
+              "WhenOpened": "2025-02-23T21:18:10.482Z",
+              "EditorCaption": ""
             },
             {
               "$type": "Document",
@@ -59,7 +60,8 @@
               "ToolTip": "D:\\Projects\\CSC202_1_1_CreatingAGUI\\1.1DiceRoller\\1.1DiceRoller\\Form1.cs [Design]",
               "RelativeToolTip": "1.1DiceRoller\\Form1.cs [Design]",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-02-22T21:57:19.516Z"
+              "WhenOpened": "2025-02-22T21:57:19.516Z",
+              "EditorCaption": " [Design]"
             }
           ]
         }

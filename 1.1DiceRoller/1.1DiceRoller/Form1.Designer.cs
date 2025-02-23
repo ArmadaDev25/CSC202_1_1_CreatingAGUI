@@ -85,9 +85,10 @@
             ErrorLabel.AutoSize = true;
             ErrorLabel.Location = new Point(25, 186);
             ErrorLabel.Name = "ErrorLabel";
-            ErrorLabel.Size = new Size(59, 25);
+            ErrorLabel.Size = new Size(69, 25);
             ErrorLabel.TabIndex = 5;
-            ErrorLabel.Text = "label3";
+            ErrorLabel.Text = "Output";
+            ErrorLabel.Click += ErrorLabel_Click;
             // 
             // Form1
             // 
