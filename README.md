@@ -8,7 +8,7 @@ https://youtu.be/N0r2MXcSiWI
 Version 1 - https://youtu.be/QvgLwsodJSw
 
 ## Assignments included
-Assignment 1.1: Create a GUI
+Assignment 1.1: Create a GUI <br />
 Assignment 4.1: Arrays
 
 
