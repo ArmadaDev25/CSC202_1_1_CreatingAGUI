@@ -7,7 +7,7 @@
       "RelativeMoniker": "D:0:0:{D92D3E82-F73F-4D53-979C-BA76DBD9A143}|1.1DiceRoller\\1.1DiceRoller.csproj|solutionrelative:1.1diceroller\\form1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{D92D3E82-F73F-4D53-979C-BA76DBD9A143}|1.1DiceRoller\\1.1DiceRoller.csproj|d:\\projects\\csc202_1_1_creatingagui\\1.1diceroller\\1.1diceroller\\form1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
+      "AbsoluteMoniker": "D:0:0:{D92D3E82-F73F-4D53-979C-BA76DBD9A143}|1.1DiceRoller\\1.1DiceRoller.csproj|D:\\Projects\\CSC202_1_1_CreatingAGUI\\1.1DiceRoller\\1.1diceroller\\form1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
       "RelativeMoniker": "D:0:0:{D92D3E82-F73F-4D53-979C-BA76DBD9A143}|1.1DiceRoller\\1.1DiceRoller.csproj|solutionrelative:1.1diceroller\\form1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
     },
     {
@@ -32,11 +32,15 @@
               "RelativeDocumentMoniker": "1.1DiceRoller\\Form1.cs",
               "ToolTip": "D:\\Projects\\CSC202_1_1_CreatingAGUI\\1.1DiceRoller\\1.1DiceRoller\\Form1.cs",
               "RelativeToolTip": "1.1DiceRoller\\Form1.cs",
-              "ViewState": "AgIAABQAAAAAAAAAAAAAAAQAAAAWAAAAAAAAAA==",
+              "ViewState": "AgIAAFMAAAAAAAAAAAAAAA4AAAAtAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2025-02-23T20:19:22.528Z",
               "IsPinned": true,
               "EditorCaption": ""
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{1c4feeaa-4718-4aa9-859d-94ce25d182ba}"
             },
             {
               "$type": "Document",

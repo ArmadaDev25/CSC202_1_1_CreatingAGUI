@@ -7,6 +7,21 @@ namespace _1._1DiceRoller
             InitializeComponent();
         }
 
+        // Example Data that contains how many times each of the sides has been rolled on a d6
+        int[] arrRollStats = { 3, 1, 0, 2, 3, 6 };
+        // 2d Array that stores info on the dice, IE what game system they are used in
+        string[,] diceInfo = {
+            {"D20", "Dungeons And Dragons"},
+            {"D6", "Warhammer 40k Tabletop"},
+            {"D8", "Dungeons And Dragons"},
+            {"D10", "Liars Dice"},
+            {"Order Dice", "Bolt Action" }
+
+        };
+        // Stores the possible outcomes for an Order Dice
+        string[] orderDice = { "Fire", "Advance", "Run", "Ambush", "Rally", "Down" };
+
+
         private void button1_Click(object sender, EventArgs e)
         {
             string numOfDice = numdiceInput.Text; // Contains the Number of Dice to Roll
@@ -16,7 +31,7 @@ namespace _1._1DiceRoller
             // Checks to make sure the user input a number in the number of dice section
             if (!int.TryParse(numOfDice, out numOfDiceInt))
             {
-                ErrorLabel.Text = "Number of Dice is Not A Whole Number";
+                ResultsLB.Items.Add("Number of Dice is Not A Whole Number");
 
             }
             else
@@ -27,19 +42,20 @@ namespace _1._1DiceRoller
                 if (numOfDiceInt != 1)
                 {
 
-                    ErrorLabel.Text = "You can only Roll 1 dice";
+                    ResultsLB.Items.Add("Number of Dice is Not A Whole Number");
 
                 }
-                else {
+                else
+                {
                     // Checks to make sure the number of Sides in a dice is a whole number
                     if (!int.TryParse(numOfSides, out numOfSidesInt))
                     {
-                        ErrorLabel.Text = "Number of Sides is Not A Whole Number";
+                        ResultsLB.Items.Add("Number of Dice is Not A Whole Number");
 
                     }
                     else
                     {
-                        // Takes the number of Sides entered by the user anc converts it to an integer
+                        // Takes the number of Sides entered by the user and converts it to an integer
                         numOfSidesInt = Convert.ToInt32(numOfSides);
                         // Object Refrence for the Random number to be generated.
                         // I got an error for missing object refrence and this fixed it.
@@ -49,11 +65,11 @@ namespace _1._1DiceRoller
                         // Generates a string by converting the Int value of numOutputIn to a String
                         string snumOutput = numOutputInt.ToString();
                         // Displays the results of the Dice roll to the user
-                        ErrorLabel.Text = snumOutput;
+                        ResultsLB.Items.Add(snumOutput);
 
                     }
                 }
-                
+
 
             }
 
@@ -72,6 +88,25 @@ namespace _1._1DiceRoller
         private void ErrorLabel_Click(object sender, EventArgs e)
         {
 
+        }
+
+        private void label3_Click(object sender, EventArgs e)
+        {
+
+        }
+
+        private void diceinfobtn_Click(object sender, EventArgs e)
+        {
+
+        }
+
+        private void rollStatsBtn_Click(object sender, EventArgs e)
+        {
+            // For loop that loops through the arrRollStats, the length of the array determines how many times it will run
+            for (int i = 0; i < arrRollStats.Length; i++) {
+                ResultsLB.Items.Add(arrRollStats[i]);
+            
+            }
         }
     }
 }

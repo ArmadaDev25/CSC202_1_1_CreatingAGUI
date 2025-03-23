@@ -33,14 +33,19 @@
             numdiceInput = new TextBox();
             label2 = new Label();
             numSidesInput = new TextBox();
-            ErrorLabel = new Label();
+            label3 = new Label();
+            ResultsLB = new ListBox();
+            label4 = new Label();
+            label5 = new Label();
+            diceinfobtn = new Button();
+            rollStatsBtn = new Button();
             SuspendLayout();
             // 
             // rollDicebtn
             // 
-            rollDicebtn.Location = new Point(25, 128);
+            rollDicebtn.Location = new Point(12, 192);
             rollDicebtn.Name = "rollDicebtn";
-            rollDicebtn.Size = new Size(389, 36);
+            rollDicebtn.Size = new Size(217, 36);
             rollDicebtn.TabIndex = 0;
             rollDicebtn.Text = "Roll Dice";
             rollDicebtn.UseVisualStyleBackColor = true;
@@ -49,7 +54,7 @@
             // label1
             // 
             label1.AutoSize = true;
-            label1.Location = new Point(25, 45);
+            label1.Location = new Point(12, 109);
             label1.Name = "label1";
             label1.Size = new Size(195, 25);
             label1.TabIndex = 1;
@@ -58,7 +63,7 @@
             // 
             // numdiceInput
             // 
-            numdiceInput.Location = new Point(264, 42);
+            numdiceInput.Location = new Point(251, 106);
             numdiceInput.Name = "numdiceInput";
             numdiceInput.Size = new Size(150, 31);
             numdiceInput.TabIndex = 2;
@@ -66,7 +71,7 @@
             // label2
             // 
             label2.AutoSize = true;
-            label2.Location = new Point(25, 83);
+            label2.Location = new Point(12, 147);
             label2.Name = "label2";
             label2.Size = new Size(217, 25);
             label2.TabIndex = 3;
@@ -75,27 +80,79 @@
             // 
             // numSidesInput
             // 
-            numSidesInput.Location = new Point(264, 79);
+            numSidesInput.Location = new Point(251, 143);
             numSidesInput.Name = "numSidesInput";
             numSidesInput.Size = new Size(150, 31);
             numSidesInput.TabIndex = 4;
             // 
-            // ErrorLabel
+            // label3
             // 
-            ErrorLabel.AutoSize = true;
-            ErrorLabel.Location = new Point(25, 186);
-            ErrorLabel.Name = "ErrorLabel";
-            ErrorLabel.Size = new Size(69, 25);
-            ErrorLabel.TabIndex = 5;
-            ErrorLabel.Text = "Output";
-            ErrorLabel.Click += ErrorLabel_Click;
+            label3.AutoSize = true;
+            label3.Location = new Point(12, 52);
+            label3.Name = "label3";
+            label3.Size = new Size(197, 25);
+            label3.TabIndex = 6;
+            label3.Text = "Roll Custom Sided Dice";
+            label3.Click += label3_Click;
+            // 
+            // ResultsLB
+            // 
+            ResultsLB.FormattingEnabled = true;
+            ResultsLB.ItemHeight = 25;
+            ResultsLB.Location = new Point(454, 52);
+            ResultsLB.Name = "ResultsLB";
+            ResultsLB.Size = new Size(334, 379);
+            ResultsLB.TabIndex = 7;
+            // 
+            // label4
+            // 
+            label4.AutoSize = true;
+            label4.Location = new Point(454, 24);
+            label4.Name = "label4";
+            label4.Size = new Size(67, 25);
+            label4.TabIndex = 8;
+            label4.Text = "Results";
+            // 
+            // label5
+            // 
+            label5.AutoSize = true;
+            label5.Location = new Point(12, 253);
+            label5.Name = "label5";
+            label5.Size = new Size(138, 25);
+            label5.TabIndex = 9;
+            label5.Text = "Other Functions";
+            // 
+            // diceinfobtn
+            // 
+            diceinfobtn.Location = new Point(12, 298);
+            diceinfobtn.Name = "diceinfobtn";
+            diceinfobtn.Size = new Size(112, 34);
+            diceinfobtn.TabIndex = 10;
+            diceinfobtn.Text = "Dice Info";
+            diceinfobtn.UseVisualStyleBackColor = true;
+            diceinfobtn.Click += diceinfobtn_Click;
+            // 
+            // rollStatsBtn
+            // 
+            rollStatsBtn.Location = new Point(142, 298);
+            rollStatsBtn.Name = "rollStatsBtn";
+            rollStatsBtn.Size = new Size(139, 34);
+            rollStatsBtn.TabIndex = 11;
+            rollStatsBtn.Text = "Rolling Stats";
+            rollStatsBtn.UseVisualStyleBackColor = true;
+            rollStatsBtn.Click += rollStatsBtn_Click;
             // 
             // Form1
             // 
             AutoScaleDimensions = new SizeF(10F, 25F);
             AutoScaleMode = AutoScaleMode.Font;
             ClientSize = new Size(800, 450);
-            Controls.Add(ErrorLabel);
+            Controls.Add(rollStatsBtn);
+            Controls.Add(diceinfobtn);
+            Controls.Add(label5);
+            Controls.Add(label4);
+            Controls.Add(ResultsLB);
+            Controls.Add(label3);
             Controls.Add(numSidesInput);
             Controls.Add(label2);
             Controls.Add(numdiceInput);
@@ -114,6 +171,11 @@
         private TextBox numdiceInput;
         private Label label2;
         private TextBox numSidesInput;
-        private Label ErrorLabel;
+        private Label label3;
+        private ListBox ResultsLB;
+        private Label label4;
+        private Label label5;
+        private Button diceinfobtn;
+        private Button rollStatsBtn;
     }
 }
