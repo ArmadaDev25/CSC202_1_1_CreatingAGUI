@@ -7,12 +7,12 @@
       "RelativeMoniker": "D:0:0:{D92D3E82-F73F-4D53-979C-BA76DBD9A143}|1.1DiceRoller\\1.1DiceRoller.csproj|solutionrelative:1.1diceroller\\form1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{D92D3E82-F73F-4D53-979C-BA76DBD9A143}|1.1DiceRoller\\1.1DiceRoller.csproj|d:\\projects\\csc202_1_1_creatingagui\\1.1diceroller\\1.1diceroller\\form1.designer.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{D92D3E82-F73F-4D53-979C-BA76DBD9A143}|1.1DiceRoller\\1.1DiceRoller.csproj|solutionrelative:1.1diceroller\\form1.designer.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
       "AbsoluteMoniker": "D:0:0:{D92D3E82-F73F-4D53-979C-BA76DBD9A143}|1.1DiceRoller\\1.1DiceRoller.csproj|D:\\Projects\\CSC202_1_1_CreatingAGUI\\1.1DiceRoller\\1.1diceroller\\form1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
       "RelativeMoniker": "D:0:0:{D92D3E82-F73F-4D53-979C-BA76DBD9A143}|1.1DiceRoller\\1.1DiceRoller.csproj|solutionrelative:1.1diceroller\\form1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{D92D3E82-F73F-4D53-979C-BA76DBD9A143}|1.1DiceRoller\\1.1DiceRoller.csproj|d:\\projects\\csc202_1_1_creatingagui\\1.1diceroller\\1.1diceroller\\form1.designer.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{D92D3E82-F73F-4D53-979C-BA76DBD9A143}|1.1DiceRoller\\1.1DiceRoller.csproj|solutionrelative:1.1diceroller\\form1.designer.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     }
   ],
   "DocumentGroupContainers": [
@@ -32,7 +32,7 @@
               "RelativeDocumentMoniker": "1.1DiceRoller\\Form1.cs",
               "ToolTip": "D:\\Projects\\CSC202_1_1_CreatingAGUI\\1.1DiceRoller\\1.1DiceRoller\\Form1.cs",
               "RelativeToolTip": "1.1DiceRoller\\Form1.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA8AAABYAAAAAAAAAA==",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA8AAABCAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2025-02-23T20:19:22.528Z",
               "IsPinned": true,
@@ -40,7 +40,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 1,
+              "DocumentIndex": 2,
               "Title": "Form1.Designer.cs",
               "DocumentMoniker": "D:\\Projects\\CSC202_1_1_CreatingAGUI\\1.1DiceRoller\\1.1DiceRoller\\Form1.Designer.cs",
               "RelativeDocumentMoniker": "1.1DiceRoller\\Form1.Designer.cs",
@@ -48,20 +48,18 @@
               "RelativeToolTip": "1.1DiceRoller\\Form1.Designer.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAQAAAAVAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-02-23T21:18:10.482Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-02-23T21:18:10.482Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 2,
+              "DocumentIndex": 1,
               "Title": "Form1.cs [Design]",
               "DocumentMoniker": "D:\\Projects\\CSC202_1_1_CreatingAGUI\\1.1DiceRoller\\1.1DiceRoller\\Form1.cs",
               "RelativeDocumentMoniker": "1.1DiceRoller\\Form1.cs",
               "ToolTip": "D:\\Projects\\CSC202_1_1_CreatingAGUI\\1.1DiceRoller\\1.1DiceRoller\\Form1.cs [Design]",
               "RelativeToolTip": "1.1DiceRoller\\Form1.cs [Design]",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-02-22T21:57:19.516Z",
-              "EditorCaption": " [Design]"
+              "WhenOpened": "2025-02-22T21:57:19.516Z"
             }
           ]
         }
