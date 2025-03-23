@@ -97,16 +97,36 @@ namespace _1._1DiceRoller
 
         private void diceinfobtn_Click(object sender, EventArgs e)
         {
+            // Loops through the dice info array, the number of times the array loops is 5 which is the number of indexes in the array
+            for (int i = 0; i < 5; i++)
+            {
+                // Adds the item within the array with the corresponding index into the list box
+                ResultsLB.Items.Add(diceInfo[i, 0] + " Used In " + diceInfo[i, 1]);
+
+            }
 
         }
 
         private void rollStatsBtn_Click(object sender, EventArgs e)
         {
-            // For loop that loops through the arrRollStats, the length of the array determines how many times it will run
-            for (int i = 0; i < arrRollStats.Length; i++) {
+            // For loop that loops through the , the length of the array determines how many times it will run
+            for (int i = 0; i < arrRollStats.Length; i++)
+            {
+                // Adds the item within the array with the corresponding index into the list box
                 ResultsLB.Items.Add(arrRollStats[i]);
-            
+
             }
+        }
+
+        // Button that allows the user to roll an orders dice
+        private void RollOrdersBtn_Click(object sender, EventArgs e)
+        {
+            Random ran = new Random();
+            //Generates a random number between that is any where from 0 to 5
+            int numOutputInt = ran.Next(0, 6);
+            // The generated number is used as the index for the orderDice array
+            // The result is then added to the Results list box
+            ResultsLB.Items.Add(orderDice[numOutputInt]);
         }
     }
 }

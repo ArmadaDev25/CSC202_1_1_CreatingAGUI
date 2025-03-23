@@ -39,6 +39,7 @@
             label5 = new Label();
             diceinfobtn = new Button();
             rollStatsBtn = new Button();
+            RollOrdersBtn = new Button();
             SuspendLayout();
             // 
             // rollDicebtn
@@ -142,11 +143,22 @@
             rollStatsBtn.UseVisualStyleBackColor = true;
             rollStatsBtn.Click += rollStatsBtn_Click;
             // 
+            // RollOrdersBtn
+            // 
+            RollOrdersBtn.Location = new Point(12, 349);
+            RollOrdersBtn.Name = "RollOrdersBtn";
+            RollOrdersBtn.Size = new Size(112, 34);
+            RollOrdersBtn.TabIndex = 12;
+            RollOrdersBtn.Text = "Roll Orders";
+            RollOrdersBtn.UseVisualStyleBackColor = true;
+            RollOrdersBtn.Click += RollOrdersBtn_Click;
+            // 
             // Form1
             // 
             AutoScaleDimensions = new SizeF(10F, 25F);
             AutoScaleMode = AutoScaleMode.Font;
             ClientSize = new Size(800, 450);
+            Controls.Add(RollOrdersBtn);
             Controls.Add(rollStatsBtn);
             Controls.Add(diceinfobtn);
             Controls.Add(label5);
@@ -177,5 +189,6 @@
         private Label label5;
         private Button diceinfobtn;
         private Button rollStatsBtn;
+        private Button RollOrdersBtn;
     }
 }
